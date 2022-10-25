@@ -5,6 +5,12 @@ Nickname: suk-6
 
 Email: wsuk.nam@gmail.com
 
+School: 덕영고등학교
+
+Group: 덕영고등학교
+
+Team: Asseertive
+
 ## Solve list
 A - Sanity Check!
 
