@@ -1,0 +1,12 @@
+service chall
+{
+    disable         = no
+    type            = UNLISTED
+    socket_type     = stream
+    protocol        = tcp
+    user            = toy_vm
+    wait            = no
+    bind            = 0.0.0.0
+    server          = /home/toy_vm/run.sh
+    port            = 31337
+}

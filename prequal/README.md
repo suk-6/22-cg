@@ -3,7 +3,7 @@
 ## Dreamhack Profile
 Nickname: suk-6
 
-email: wsuk.nam@gmail.com
+Email: wsuk.nam@gmail.com
 
 ## Solve list
 A - Sanity Check!
